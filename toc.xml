@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Addon Author="Caleb" APIVersion="9" Name="SellByName" Description="Set up a list of items to be sold by name. /sbn" Version="9.0.1.3">
+<Addon Author="Caleb" APIVersion="9" Name="SellByName" Description="Set up a list of items to be sold by name. /sbn" Version="9.0.1.5">
 	<Script Name="Libs/GeminiAddon/GeminiAddon.lua"/>
 	<Script Name="Libs/GeminiDB/GeminiDB-1.0.lua"/>
 	<Script Name="Libs/GeminiGUI/GeminiGUI.lua"/>
@@ -9,6 +9,8 @@
 	<Script Name="SellByName.lua"/>
 	<Form Name="SellByName.xml"/>
 </Addon>
+
+
 
 
 
