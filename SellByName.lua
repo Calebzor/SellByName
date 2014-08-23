@@ -9,7 +9,7 @@
 	
 ]]--
 
-local sVersion = "9.0.1.5"
+local sVersion = "9.0.1.6"
 
 require "GameLib"
 require "Tooltip"
@@ -29,7 +29,7 @@ local ChatSystemLib = ChatSystemLib
 -----------------------------------------------------------------------------------------------
 -- Package loading
 -----------------------------------------------------------------------------------------------
-local addon = Apollo.GetPackage("Gemini:Addon-1.1").tPackage:NewAddon("SellByName", false, {}, "Gemini:Timer-1.0" )
+local addon = Apollo.GetPackage("Gemini:Addon-1.1").tPackage:NewAddon("SellByName", false, {}, nil )
 local GeminiConfig = Apollo.GetPackage("Gemini:Config-1.0").tPackage
 --local GeminiCmd = Apollo.GetPackage("Gemini:ConfigCmd-1.0").tPackage
 local L = Apollo.GetPackage("Gemini:Locale-1.0").tPackage:GetLocale("SellByName", true)
