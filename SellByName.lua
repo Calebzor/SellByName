@@ -109,7 +109,7 @@ function addon:OnInitialize()
 			itemToUnIgnore = {
 				order = 120,
 				name = "Item to unignore from the ignore list",
-				desc = "Select an item from the dropdown window to be removed from the ignore list.",
+				desc = "Select an item from the dropdown window to be removed from the ignore list of the inventory window.",
 				type = "select",
 				values = self.db.profile.tIgnored,
 				get = function() end,
