@@ -9,7 +9,7 @@
 	
 ]]--
 
-local sVersion = "9.0.1.8"
+local sVersion = "9.0.1.9"
 
 require "GameLib"
 require "Tooltip"
