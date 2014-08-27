@@ -9,7 +9,7 @@
 	
 ]]--
 
-local sVersion = "9.0.1.7"
+local sVersion = "9.0.1.8"
 
 require "GameLib"
 require "Tooltip"
@@ -132,6 +132,7 @@ function addon:OnEnable()
 	Apollo.RegisterSlashCommand("sbn", "OpenMenu", self)
 	Apollo.RegisterSlashCommand("SellByName", "OpenMenu", self)
 	Apollo.RegisterSlashCommand("sellbyname", "OpenMenu", self)
+	Apollo.RegisterSlashCommand("sbnw", "OpenWindow", self)
 
 	-- Event thrown by opening the a Vendor window
 	Apollo.RegisterEventHandler("InvokeVendorWindow",   "OnInvokeVendorWindow", self)

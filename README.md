@@ -10,6 +10,8 @@ Sometimes having item quality tresholds to automatically sell items is not enoug
 
 ##Configuration window slash command:
 > /sbn
+To open the inventory filter window directly:
+> /sbnw
 
 ##How to install:
 Extract the SellByName.zip file into the Wildstar Addon folder ( which can be found at %APPDATA%\Roaming\NCSOFT\WildStar\Addons by default, if you can't find the Addons folder, then create it! )
