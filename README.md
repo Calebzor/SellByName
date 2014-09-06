@@ -3,10 +3,10 @@ SellByName
 
 Set up a list of items to be sold by name. /sbn
 
-Sometimes having item quality tresholds to automatically sell items is not enough. This addon trys to help out with selling items such as bangs, and other good quality items that'd normally not get sold by addons like JunkIt.
+Sometimes having item quality thresholds to automatically sell items is not enough. This addon trys to help out with selling items such as bags, and other good quality items that'd normally not get sold by addons like JunkIt.
 
 ##Features
-* Create a list of items by name for automatical selling when visiting a vendor
+* Create a list of items by name for automatically selling when visiting a vendor
 
 ##Configuration window slash command:
 > /sbn
